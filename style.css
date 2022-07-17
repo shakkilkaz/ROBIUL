@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.menu-bar{
+  
+    width: 100%;
+    height: 100vh;
+    background: url(./bag.png.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.menu-bar ul{
+    background-color: rgb(3, 1, 48);
+    text-align: center;
+}
+.menu-bar ul li{
+    display: inline-flex;
+    margin: 20px;
+    padding: 30px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.menu-bar ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.active, .menu-bar ul li:hover{
+    background-color: rgb(189, 167, 40);
+    border-radius: 3px;
+}
+.about{
+    display: none;
+}
+.menu-bar ul li:hover .about{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .about ul li{
+    display: block;
+    margin:10px;
+}
+
+.menu-bar ul li:hover .about ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted aliceblue;
+    background: transparent;
+    text-align: left;
+
+}
+.fa-angle-right{
+    float: right;
+}
+
+.marketing{
+
+    display: none;
+}
+.hover-me:hover .marketing{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    
+}
+.Trainig{
+    display: none;
+}
+
+.menu-bar ul li:hover .Trainig{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .Trainig ul li{
+    display: block;
+    margin:10px;
+}
+
+.menu-bar ul li:hover .Trainig ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted aliceblue;
+    background: transparent;
+    text-align: left;
+
+}
+
+
+.fa-angle-right{
+    margin-right: 8px;
+}
+
+.development{
+
+    display: none;
+}
+.hover-me:hover .development{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    
+}
+
+.detels{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: aliceblue;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.titles{
+    font-size: 70px;
+    line-height: 100px;
+    height: 100px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.detels p{
+    margin: 20px auto;
+    padding: 20px;
+    font-weight: bold;
+
+}
+button{
+    padding: 15px 25px;
+    border: 2px solid red;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #ffc107 50%);
+    background-position: left;
+    background-size: 200%;
+    transition: background-position 0.5s;
+}
+
+button:hover{
+    background-position: right;
+}
+
+.slider{
+    color: #ffc107;
+    margin: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+
+@keyframes slider{
+    0%{margin-top: -400px;}
+    5%{margin-top: -200px;}
+    30%{margin-top: -200px;}
+    35%{margin-top: 0px;}
+    65%{margin-top: 0px;}
+    70%{margin-top: 200px;}
+    100%{margin-top: 200px;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
